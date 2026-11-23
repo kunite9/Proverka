@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мониторинг системы | Веб-проект</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="dashboard">
+    <span class="badge">Система активна</span>
+    <h2>Панель управления проектом</h2>
+    <p>Автоматическая сборка и тестирование настроены через GitHub Actions.</p>
+    <div class="controls">
+      <button id="checkBtn">Запустить диагностику</button>
+    </div>
+    <div id="logOutput" class="log-box">Ожидание команды...</div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
